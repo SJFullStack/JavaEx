@@ -23,7 +23,7 @@ public class $03switch {
             System.out.println("유산슬이 나왔습니다.");
         else if(sel ==5) 
             System.out.println("유린기가 나왔습니다.");
-        default:            //else의 의미
+        else:            //else의 의미
             System.out.println("해당 메뉴 번호가 없습니다.");
         
         sc.close();
